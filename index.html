@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">DOM Practice</h1>
+
+    <div id="counter">
+        <h2>Counter</h2>
+
+        <p>Count: <span id="clickCount">0</span></p>
+        <p>Double Clicks: <span id="doubleClickCount">0</span></p>
+        <p>MouseOver/Hover: <span id="mouseOverCount">0</span></p>
+
+
+        <button id="clickButton">Click</button>
+        <button id="doubleClickButton">Double Click</button>
+        <button id="mouseoverButton">Hover</button>
+    </div>
+
+
+    <img
+  id="myImage"
+  src="https://media.craiyon.com/2025-05-04/DDzGpvg9R7qIHnaCLxXHqw.webp"
+  alt="Angry fruits in military uniforms standing in a war zone"
+  width="400"
+>
+    <p class="intro">This text will change</p>
+
+    <!-- add a fruits input form -->
+    <form id="fruitsForm">
+        <input type="text" id="fruitInput" placeholder="Enter a fruit">
+        <button type="submit" id="addFruits">Add Fruits</button>
+        <button type="button" id="deleteFruit">Delete</button>
+        <button type="button" id="sortFruits">Sort</button>
+    </form>
+
+    <ul id="list"></ul>
+    <p id="listError" class="error-text"></p>
+    <div id="container"></div>
+    <h2>My To Do List</h2>
+    <form id="todoForm">
+        <input type="text" 
+        id="todoInput" 
+        placeholder="Enter a task">
+        <button type="submit">Add</button>
+    </form>
+    <ul id="todoList"></ul>
+    <p id="todoError"></p>
+    <p id="todoCount"></p>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
